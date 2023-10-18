@@ -1,0 +1,96 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #000;
+    color: #00A94E;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho e menu de navegação */
+header {
+    background-color: #000;
+    color: #00A94E;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00A94E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a.active {
+    border-bottom: 2px solid #00A94E;
+    color: #007B33; /* Cor do link da página atual */
+}
+
+/* Estilos para o conteúdo */
+.container {
+    width: 400px;
+    background-color: #000;
+    color: #00A94E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+}
+
+h2 {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #00A94E;
+    border-radius: 5px;
+    color: #00A94E;
+    background-color: #000;
+}
+
+/* Estilos para o botão "Cadastrar" */
+.custom-button {
+    background-color: #007B33; /* Verde escuro */
+    color: #FFF; /* Texto branco */
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Efeito de transição de cor no hover */
+}
+
+.custom-button:hover {
+    background-color: #00A94E; /* Verde claro no hover */
+}
+
+
+p {
+    margin: 10px 0;
+    color: #FF0000;
+}
